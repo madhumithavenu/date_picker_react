@@ -15,6 +15,7 @@ function DateRangePickerComp() {
     key: 'selection'
   }]);
 
+  
   const [open, setOpen] = useState(false);
   const refOne = useRef(null);
 
